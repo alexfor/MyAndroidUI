@@ -1,0 +1,17 @@
+<resources>
+    <declare-styleable name="SettingPannel">
+        <attr name="itemBackgroundColor" format="color" /><!--每个项目背景颜色-->
+        <attr name="showLeftIcon" format="boolean" /><!--是否显示左边的图标-->
+        <attr name="dividerWidth" format="dimension" /><!--分割线宽度-->
+        <attr name="dividerColor" format="color" /><!--分割线颜色-->
+        <attr name="showRightIcon" format="reference" /><!--是否显示右边的图标-->
+        <attr name="rightIcon" format="reference" /><!--右边图标-->
+        <attr name="textColor" format="color" /><!--文字颜色-->
+        <attr name="rightHintColor" format="color" /><!--右边提示文字颜色-->
+    </declare-styleable>
+
+    <declare-styleable name="TopNavBar">
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

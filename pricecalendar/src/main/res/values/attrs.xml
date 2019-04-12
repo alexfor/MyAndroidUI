@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="PriceCalendar">
+        <attr name="showWeek" format="boolean" /><!--显示星期-->
+        <attr name="weekCount" format="integer" /><!--总共显示的星期数-->
+    </declare-styleable>
+</resources>
